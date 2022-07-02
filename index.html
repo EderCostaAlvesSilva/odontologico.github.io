@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consutório Odontológico</title>
+    <style>
+        body{
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 590px;
+            background: lightseagreen;
+            text-align: center;
+        }
+        div{
+            margin: 10px 5px ;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><u>Consutório Odontológico</u></h1>
+        <div>
+            <label for="">Paciente</label> <br>
+            <input type="text" id="Paciente">
+        </div>
+        <div>
+            <button id="btnCon" type="button">Consulta</button>
+            <button id="btnPrio" type="button">prioritario</button>
+            <button id="btnAte" type="button">Atender</button>
+        </div>
+        <div>
+            <h1>Em Atendimento: <span id="atendendo"></span></h1>
+            <ol id="lista">
+               
+            </ol>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
